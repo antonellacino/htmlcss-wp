@@ -218,8 +218,8 @@ hr{
 /*FINE SEZ DESTRA*/
 
 /*INIZIO FOOTER*/
-footer{
-  height: 200PX;
+
+.info{
   width: 100%;
   background-color: white;
   padding-top: 10px;
@@ -232,7 +232,7 @@ section{
 }
 
 .font{
-  font-size: 25px;;
+  font-size: 25px;
 }
 footer section:last-child{
   width: 40%;
@@ -240,4 +240,17 @@ footer section:last-child{
 
 footer p{
   line-height:30px;
+}
+
+div.info::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#sez_contatti{
+  padding: 20px;
+  border-top: 1px solid #504741;
+  background-color: white;
+  width: 100%;
 }
