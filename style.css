@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    background-image: url(img/sfondo.png);
+}
+.container{
+  /* start debug*/
+  /*end debug*/
+  max-width: 1200px;
+  margin:auto;
+}
+
+/* INTESTAZIONE*/
+#intestazione{
+  /* start debug*/
+  background-color: white;
+  height: 200px;
+  margin-top: 30px;  /*end debug*/
+  width: 100%;
+  padding: 10px;
+
+}
+
+.img{
+  background-image:url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+  background-size: cover;
+  height: 170px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+h1{
+  font-size:50px;
+  text-align: center;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 600;
+  position: relative;
+  top: 30%;
+}
+
+div.img p{
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 33%;
+  font-weight: 600;
+}
+
+.nav{
+  /* start debug*/
+  height: 50px;
+  background-color: #504741;
+  margin-bottom: 5px;
+  padding-top: 7px;
+  /*end debug*/
+  width: 100%;
+}
+
+div.nav ul li{
+  position: relative;
+  left: 30%;
+  top: 50%;
+  display: inline-block;
+  border-right: 1px solid black;
+  padding: 5px 10px;
+}
+
+div.nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+/*FINE INTESTAZIONE*/
+
+
+main{
+  margin: 20px 0;
+  width: 100%;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* INIZIO SEZIONE SINISTRA*/
+#sez_sx{
+  /*start debug */
+  height: 600px;
+  /*end debug*/
+  margin-bottom: 5px;
+  width: 25%;
+  float: left;
+}
+
+.div_sx{
+  /*start debug */
+  height: 100px;
+  /*end debug*/
+  background-color: white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* INIZIO SEZIONE CENTRALE*/
+#sez_central{
+  /* start debug*/
+  /*end debug*/
+  margin: 0 15px;
+  width: 40%;
+  float: left;
+}
+
+.div_centrali{
+  /*debug*/
+  height: 300px;
+  background-color: white;
+  margin-bottom: 5px;
+  /*end debug*/
+  width: 100%;
+}
+
+/*FINE ZONA CENTRALE*/
+
+/*INIZIONE SEZ DESTRA*/
+#sez_dx{
+  /* start debug*/
+  /*end debug*/
+  width: 32%;
+  float: left;
+}
+
+#sez_dx section{
+  /*debug*/
+  height: 100px;
+  margin-bottom:20px;
+  padding-top:30px;
+  background-color: white;
+/*end debug*/}
+
+#sez_dx section form input{
+  font-size: 20px;
+  position: relative;
+  top: 20%;
+  left: 10%;
+}
+
+#sez_dx section form input[type="submit"]{
+  background-color:#504741;
+  color: grey;
+  padding: 5px 10px;
+}
+
+/*FINE SEZ DESTRA*/
+footer{
+  /* start debug*/
+  height: 100px;
+  background-color: black;
+  /*end debug*/
+}
