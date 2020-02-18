@@ -216,9 +216,28 @@ hr{
   font-size: 25px;
 }
 /*FINE SEZ DESTRA*/
+
+/*INIZIO FOOTER*/
 footer{
-  /* start debug*/
-  height: 100px;
-  background-color: black;
-  /*end debug*/
+  height: 200PX;
+  width: 100%;
+  background-color: white;
+  padding-top: 10px;
+}
+
+section{
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+
+.font{
+  font-size: 25px;;
+}
+footer section:last-child{
+  width: 40%;
+}
+
+footer p{
+  line-height:30px;
 }
