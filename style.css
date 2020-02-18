@@ -138,17 +138,13 @@ a{
 
 /* INIZIO SEZIONE CENTRALE*/
 #sez_central{
-  /* start debug*/
-  /*end debug*/
   margin: 0 15px;
   width: 40%;
   float: left;
 }
 
 .div_centrali{
-  /*debug*/
   background-color: white;
-  /*end debug*/
 }
 
 article.div_centrali h2{
@@ -225,7 +221,7 @@ hr{
   padding-top: 10px;
 }
 
-section{
+footer section{
   width: 20%;
   float: left;
   padding: 10px;
