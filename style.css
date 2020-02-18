@@ -98,7 +98,6 @@ main::after{
   /*start debug */
   height: 600px;
   /*end debug*/
-  margin-bottom: 5px;
   width: 25%;
   float: left;
 }
@@ -108,7 +107,7 @@ main::after{
   /*end debug*/
   background-color: white;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 ul{
   list-style: none;
@@ -119,9 +118,11 @@ a{
   text-decoration: none;
   color: green;
   padding: 20px;
-
 }
 
+.link_piccoli{
+  font-size: 15px;
+}
 .div_sx ul:first-child{
   font-size: 25px;
 }
@@ -130,9 +131,8 @@ a{
   background-color: lightgrey;
 }
 
-/*.div_sx ul li a{
-  line-height: 10px;
-  font-weight: 300;
+.div_sx ul li a{
+  line-height: 30px;
 }
 
 
@@ -147,44 +147,68 @@ a{
 
 .div_centrali{
   /*debug*/
-  height: 300px;
   background-color: white;
-  margin-bottom: 5px;
   /*end debug*/
-  width: 100%;
 }
 
+article.div_centrali h2{
+  font-size: 35px;
+  color: #48332b;
+  padding: 10px;
+}
+
+article.div_centrali h2:hover{
+  color: #7daf42;
+}
+
+.div_centrali img{
+  height: 200px;
+  width: auto;
+  background-size: cover;
+}
+
+.div_centrali p {
+  line-height: 30px;
+  text-align: justify;
+  padding: 0 12px;
+}
+
+hr{
+  width: 70%;
+}
 /*FINE ZONA CENTRALE*/
 
 /*INIZIONE SEZ DESTRA*/
-#sez_dx{
-  /* start debug*/
-  /*end debug*/
+
+.sez_dx{
   width: 32%;
-  float: left;
-}
-
-#sez_dx section{
-  /*debug*/
-  height: 100px;
   margin-bottom:20px;
-  padding-top:30px;
   background-color: white;
-/*end debug*/}
-
-#sez_dx section form input{
-  font-size: 20px;
-  position: relative;
-  top: 20%;
-  left: 10%;
+  float: left;
+  padding-left: 10px;
 }
 
-#sez_dx section form input[type="submit"]{
+.altezza{
+  height: 100px;
+}
+
+.sez_dx form input[type="submit"]{
   background-color:#504741;
   color: grey;
   padding: 5px 10px;
 }
 
+.sez_dx a{
+  font-size: 15px;
+}
+
+.sez_dx li{
+  display: inline;
+}
+
+.sez_dx ul:first-child{
+  font-size: 25px;
+}
 /*FINE SEZ DESTRA*/
 footer{
   /* start debug*/
